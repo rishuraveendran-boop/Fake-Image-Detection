@@ -1,0 +1,27 @@
+# Large processed datasets
+processed_data/
+
+# Large model files
+*.keras
+*.pkl
+
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# Archives
+*.zip
+
+# Executables / libraries
+*.exe
+*.dll
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+venv/
+.venv/
