@@ -18,7 +18,7 @@ st.set_page_config(
 # ─── LOAD MODEL ───────────────────────────────────────────
 @st.cache_resource
 def load_detector():
-    return load_model('cnn_svm_final.pkl')
+    return joblib.load('cnn_svm_final.pkl')
 
 model = load_detector()
 
